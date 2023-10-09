@@ -1,0 +1,92 @@
+#root1{
+    margin: 15px;
+    
+}
+#lg{
+    margin-left: 10px;
+}
+#nav{
+    background-color:rgb(90, 90, 89);
+    height: 70px;
+}
+body{
+    background-color:lightgray ;
+}
+select {
+
+    -webkit-appearance: none;
+
+    -moz-appearance: none;
+
+    text-indent: 1px;
+
+    text-overflow: '';
+
+    background-color: rgb(90, 90, 89);
+
+    border: none;
+    color:white
+
+  }
+#i2{
+    margin-left: 50px;
+}
+
+#bt,#bt2{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    border-color: none;
+    width: 130px;
+
+}
+#bt2{
+    margin-left: 60px;
+}
+#bt1{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    border-color: none;
+    width: 130px;
+
+
+}
+/* #addUserForm,#updateUserForm{
+    width: 500px;
+    margin-left: 400px;
+} */
+.btn{
+    margin: 20px;
+
+}
+div{
+    margin: 10px;
+}
+label{
+    margin-left: 10px;
+}
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150%) scale(0);
+    width: 350px;
+    height: 430px;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: #dfdfdf;
+    z-index: 1;
+
+
+   }
+
+
+ #qq1,#qq2{
+    margin: 4px;
+ }
+ 

@@ -1,0 +1,135 @@
+
+.f1 {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: left;
+    height:360px;
+    display:block;
+    font-size: 14px;
+  }
+  .in{
+    box-sizing: border-box;
+    border:1px solid;
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0px 5px 5px 0px;
+    border-color: #E6E6E3;
+    
+    
+  }
+  .f1 button{
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    padding:30px;
+    
+  }
+
+  #cancel{
+background-color: rgba(128, 128, 128, 0.603);
+border: none;
+border-radius: 5px;
+color: white;
+padding:10px;
+margin-left: 280px;
+
+  }
+  #submit{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+color: white;
+padding:10px;
+margin-left: 200px;
+
+
+
+  }
+ 
+  div{
+    font-size: 18px;
+  }
+  #pass{
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 5px;
+    
+  }
+  #login{
+    padding-top: 0px;
+  }
+  span{
+    font-size: 14px;
+    color:#c2c2bef3;
+  }
+  hr{
+    padding-left: 0px;
+    padding-right: 0px
+  }
+  
+  #fa1, #fa2{
+    background-color:#c2c2beb2 ;
+    text-align: center;
+    border:1px;
+    width:10%;
+    height:54px;
+    padding-top: 15px;
+    border-radius: 5px 0px 0px 5px;
+    
+  }
+  .inputfield{
+    display: flex;
+    width:100%;
+  }
+
+  .f2 {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin-left: 400px;
+    margin-top: 30px;
+    padding: 15px;
+    text-align: left;
+    height: 530px;
+    display:block;
+    font-size: 14px;
+  }
+
+  .bt1{
+     height:30px;
+     width:100px;
+     padding-right:30px ;
+     margin-right: 20px;
+     margin-left: 1000px;
+     margin-top: 20px;
+     font-size: 14px;
+     
+  }
+  .bt2{
+    height:30px;
+    width:100px;
+    padding-right:30px ;
+    margin-right: 20px;
+    font-size: 14px;
+    
+    
+ }
+ #nav{
+  background-color:rgb(90, 90, 89);
+  height: 70px;
+}
+.ad{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+ 
+}
+.ad:hover{
+  text-decoration: none;
+}

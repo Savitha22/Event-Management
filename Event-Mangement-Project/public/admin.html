@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body background="./lib/rg.jpg"> 
+        <nav class="navbar navbar-expand-sm  navbar-dark" id="nav"> 
+            <div class="container-fluid" id='lg' >
+                <a class="navbar-brand" href="#">
+                    <img src="./lib/OIP.jfif"  style="width:40px;" class="rounded-pill"> 
+                  </a>
+                <h4 style=" color:white; margin-left:300px;">Welcome to  Admin Login</h4>
+                <a href="./register.html" class="ad">Register</a>
+            <a href="./login.html" class="ad">User Login</a>
+            <a href="./admin.html" class="ad">Admin Login</a>
+             
+            </div>
+          </nav> 
+        <div id="main">
+</div>
+<form class="f1">
+        <p><div><label>User name</label></div></p>
+
+        <div class="inputfield">
+            <i class="fa fa-envelope" id="fa1"></i>
+        <input class="in" type="text" id="ls1" placeholder="Enter User name" name="uname" required> </div> 
+        <p><div><label>Password</label></div></p>
+        <div class="inputfield">
+            <i class="fa fa-lock" id="fa2"></i>
+         <input  class="in"  id="passs1" type="password" placeholder="Password" name="password"  minlength="8" required>
+         </div>
+        <td></td>
+        <hr class="hr">
+        <a href="index.html" id="ad" style="text-decoration: none;font-size:20px;margin-top: 20px;">Back</a>
+        <button type="submit" class="btn" style="float: right;" onclick="adminlogin()" id="submit">Signin</button>
+    </div>
+    </form>
+
+    </body>
+</html>
